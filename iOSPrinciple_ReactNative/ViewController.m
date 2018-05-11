@@ -9,6 +9,9 @@
 #import "ViewController.h"
 #import <JavaScriptCore/JSContext.h>
 #import <JavaScriptCore/JSValue.h>
+
+#import <React/RCTRootView.h>
+
 @interface ViewController ()
 
 @end
@@ -21,6 +24,9 @@
     [self createJSContext];
     
     [self callbackJSContext];
+    
+    
+    [self setupReactNative];
 }
 
 /// 🌰：Native -> JavaScript
@@ -46,6 +52,24 @@
         return mutableString;
     };
     NSLog(@"%@", [context evaluateScript:@"testSay('hello world')"]);
+}
+
+- (void)setupReactNative {
+    NSURL *jsCodeLocation;
+    
+    //    jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios&dev=true"];
+    jsCodeLocation = [NSURL URLWithString:@"http://10.0.0.65:8081/index.ios.bundle?platform=ios&dev=true"];
+    
+    RCTRootView *reactRootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                             moduleName:@"iOSPrinciple_ReactNative"
+                                                      initialProperties:nil
+                                                          launchOptions:nil];
+    reactRootView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    [self.view addSubview:reactRootView];
+}
+
+- (void)dealloc {
+    NSLog(@"%@",@"ModuleARNPageViewController dealloc");
 }
 
 - (void)didReceiveMemoryWarning {

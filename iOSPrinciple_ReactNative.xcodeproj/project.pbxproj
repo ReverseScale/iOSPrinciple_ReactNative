@@ -15,6 +15,11 @@
 		345226F420A533D7003C23BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 345226F320A533D7003C23BD /* main.m */; };
 		345226FE20A533D7003C23BD /* iOSPrinciple_ReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 345226FD20A533D7003C23BD /* iOSPrinciple_ReactNativeTests.m */; };
 		3452270920A533D7003C23BD /* iOSPrinciple_ReactNativeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452270820A533D7003C23BD /* iOSPrinciple_ReactNativeUITests.m */; };
+		3452271B20A5736B003C23BD /* RNCalliOSAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452271720A5736B003C23BD /* RNCalliOSAction.m */; };
+		3452271C20A5736B003C23BD /* RCSubEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452271A20A5736B003C23BD /* RCSubEventEmitter.m */; };
+		6A0FA4BA6D5C114E51F41C2D /* libPods-iOSPrinciple_ReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5039AF0B557CAEDE1FA55FCE /* libPods-iOSPrinciple_ReactNative.a */; };
+		75BA97F5639EF7813BB1C997 /* libPods-iOSPrinciple_ReactNativeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1CBD83FBE245DB0F070ED9 /* libPods-iOSPrinciple_ReactNativeUITests.a */; };
+		BD5EDC58BBA0488BFD2A1F8D /* libPods-iOSPrinciple_ReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9D2DD0F4218793EE0C04DA /* libPods-iOSPrinciple_ReactNativeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1175509A2F5AA45E728904C9 /* Pods-iOSPrinciple_ReactNativeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_ReactNativeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_ReactNativeUITests/Pods-iOSPrinciple_ReactNativeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E9D16BE3CDD217700985D24 /* Pods-iOSPrinciple_ReactNativeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_ReactNativeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_ReactNativeUITests/Pods-iOSPrinciple_ReactNativeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		345226E120A533D3003C23BD /* iOSPrinciple_ReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPrinciple_ReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		345226E420A533D3003C23BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		345226E520A533D3003C23BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,17 @@
 		3452270420A533D7003C23BD /* iOSPrinciple_ReactNativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPrinciple_ReactNativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3452270820A533D7003C23BD /* iOSPrinciple_ReactNativeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSPrinciple_ReactNativeUITests.m; sourceTree = "<group>"; };
 		3452270A20A533D7003C23BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3452271720A5736B003C23BD /* RNCalliOSAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCalliOSAction.m; sourceTree = "<group>"; };
+		3452271820A5736B003C23BD /* RCSubEventEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSubEventEmitter.h; sourceTree = "<group>"; };
+		3452271920A5736B003C23BD /* RNCalliOSAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCalliOSAction.h; sourceTree = "<group>"; };
+		3452271A20A5736B003C23BD /* RCSubEventEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSubEventEmitter.m; sourceTree = "<group>"; };
+		5039AF0B557CAEDE1FA55FCE /* libPods-iOSPrinciple_ReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSPrinciple_ReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		568D51951195085A6B2C8507 /* Pods-iOSPrinciple_ReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_ReactNativeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_ReactNativeTests/Pods-iOSPrinciple_ReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		5800EBB6CDB3789F65392635 /* Pods-iOSPrinciple_ReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_ReactNativeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_ReactNativeTests/Pods-iOSPrinciple_ReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1CBD83FBE245DB0F070ED9 /* libPods-iOSPrinciple_ReactNativeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSPrinciple_ReactNativeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7542EDB44AB9A52D9CC8D8C7 /* Pods-iOSPrinciple_ReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_ReactNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_ReactNative/Pods-iOSPrinciple_ReactNative.debug.xcconfig"; sourceTree = "<group>"; };
+		8B9D2DD0F4218793EE0C04DA /* libPods-iOSPrinciple_ReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSPrinciple_ReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2A89B9E58E663D2CE174A9 /* Pods-iOSPrinciple_ReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_ReactNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_ReactNative/Pods-iOSPrinciple_ReactNative.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0FA4BA6D5C114E51F41C2D /* libPods-iOSPrinciple_ReactNative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5EDC58BBA0488BFD2A1F8D /* libPods-iOSPrinciple_ReactNativeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75BA97F5639EF7813BB1C997 /* libPods-iOSPrinciple_ReactNativeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				345226FC20A533D7003C23BD /* iOSPrinciple_ReactNativeTests */,
 				3452270720A533D7003C23BD /* iOSPrinciple_ReactNativeUITests */,
 				345226E220A533D3003C23BD /* Products */,
+				79AEAD654C616854A015DB12 /* Pods */,
+				8E8C6FB7387C31C9FED7808B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +128,7 @@
 				345226E520A533D3003C23BD /* AppDelegate.m */,
 				345226E720A533D3003C23BD /* ViewController.h */,
 				345226E820A533D3003C23BD /* ViewController.m */,
+				3452271620A5736B003C23BD /* ReactBridge */,
 				345226EA20A533D3003C23BD /* Main.storyboard */,
 				345226ED20A533D7003C23BD /* Assets.xcassets */,
 				345226EF20A533D7003C23BD /* LaunchScreen.storyboard */,
@@ -132,6 +156,40 @@
 			path = iOSPrinciple_ReactNativeUITests;
 			sourceTree = "<group>";
 		};
+		3452271620A5736B003C23BD /* ReactBridge */ = {
+			isa = PBXGroup;
+			children = (
+				3452271720A5736B003C23BD /* RNCalliOSAction.m */,
+				3452271920A5736B003C23BD /* RNCalliOSAction.h */,
+				3452271820A5736B003C23BD /* RCSubEventEmitter.h */,
+				3452271A20A5736B003C23BD /* RCSubEventEmitter.m */,
+			);
+			path = ReactBridge;
+			sourceTree = "<group>";
+		};
+		79AEAD654C616854A015DB12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7542EDB44AB9A52D9CC8D8C7 /* Pods-iOSPrinciple_ReactNative.debug.xcconfig */,
+				CE2A89B9E58E663D2CE174A9 /* Pods-iOSPrinciple_ReactNative.release.xcconfig */,
+				5800EBB6CDB3789F65392635 /* Pods-iOSPrinciple_ReactNativeTests.debug.xcconfig */,
+				568D51951195085A6B2C8507 /* Pods-iOSPrinciple_ReactNativeTests.release.xcconfig */,
+				1175509A2F5AA45E728904C9 /* Pods-iOSPrinciple_ReactNativeUITests.debug.xcconfig */,
+				2E9D16BE3CDD217700985D24 /* Pods-iOSPrinciple_ReactNativeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E8C6FB7387C31C9FED7808B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5039AF0B557CAEDE1FA55FCE /* libPods-iOSPrinciple_ReactNative.a */,
+				8B9D2DD0F4218793EE0C04DA /* libPods-iOSPrinciple_ReactNativeTests.a */,
+				5A1CBD83FBE245DB0F070ED9 /* libPods-iOSPrinciple_ReactNativeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3452270D20A533D7003C23BD /* Build configuration list for PBXNativeTarget "iOSPrinciple_ReactNative" */;
 			buildPhases = (
+				FBE9A1D63DC1E7574A887C5A /* [CP] Check Pods Manifest.lock */,
 				345226DD20A533D3003C23BD /* Sources */,
 				345226DE20A533D3003C23BD /* Frameworks */,
 				345226DF20A533D3003C23BD /* Resources */,
+				F408FF246E279E6C158B8D7B /* [CP] Embed Pods Frameworks */,
+				D674E3BADFE9058EF9E167DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3452271020A533D7003C23BD /* Build configuration list for PBXNativeTarget "iOSPrinciple_ReactNativeTests" */;
 			buildPhases = (
+				095D19B6EF873B3D20D11660 /* [CP] Check Pods Manifest.lock */,
 				345226F520A533D7003C23BD /* Sources */,
 				345226F620A533D7003C23BD /* Frameworks */,
 				345226F720A533D7003C23BD /* Resources */,
+				FE18B581F30E84268F3C0009 /* [CP] Embed Pods Frameworks */,
+				564FF996F3193E795C99BE43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3452271320A533D7003C23BD /* Build configuration list for PBXNativeTarget "iOSPrinciple_ReactNativeUITests" */;
 			buildPhases = (
+				ECE2AEB69A85EAFA87DED830 /* [CP] Check Pods Manifest.lock */,
 				3452270020A533D7003C23BD /* Sources */,
 				3452270120A533D7003C23BD /* Frameworks */,
 				3452270220A533D7003C23BD /* Resources */,
+				503E163F348DB5A322ABD4C1 /* [CP] Embed Pods Frameworks */,
+				F1BB1CB69BC1F727B9CF1C0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +324,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		095D19B6EF873B3D20D11660 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPrinciple_ReactNativeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		503E163F348DB5A322ABD4C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_ReactNativeUITests/Pods-iOSPrinciple_ReactNativeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		564FF996F3193E795C99BE43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_ReactNativeTests/Pods-iOSPrinciple_ReactNativeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D674E3BADFE9058EF9E167DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_ReactNative/Pods-iOSPrinciple_ReactNative-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_ReactNative/Pods-iOSPrinciple_ReactNative-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE2AEB69A85EAFA87DED830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPrinciple_ReactNativeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1BB1CB69BC1F727B9CF1C0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_ReactNativeUITests/Pods-iOSPrinciple_ReactNativeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F408FF246E279E6C158B8D7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_ReactNative/Pods-iOSPrinciple_ReactNative-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE9A1D63DC1E7574A887C5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPrinciple_ReactNative-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE18B581F30E84268F3C0009 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_ReactNativeTests/Pods-iOSPrinciple_ReactNativeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		345226DD20A533D3003C23BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				345226E920A533D3003C23BD /* ViewController.m in Sources */,
+				3452271B20A5736B003C23BD /* RNCalliOSAction.m in Sources */,
+				3452271C20A5736B003C23BD /* RCSubEventEmitter.m in Sources */,
 				345226F420A533D7003C23BD /* main.m in Sources */,
 				345226E620A533D3003C23BD /* AppDelegate.m in Sources */,
 			);
@@ -431,14 +650,12 @@
 		};
 		3452270E20A533D7003C23BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7542EDB44AB9A52D9CC8D8C7 /* Pods-iOSPrinciple_ReactNative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSPrinciple_ReactNative/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.S..iOSPrinciple-ReactNative";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,14 +664,12 @@
 		};
 		3452270F20A533D7003C23BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2A89B9E58E663D2CE174A9 /* Pods-iOSPrinciple_ReactNative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSPrinciple_ReactNative/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.S..iOSPrinciple-ReactNative";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,15 +678,12 @@
 		};
 		3452271120A533D7003C23BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5800EBB6CDB3789F65392635 /* Pods-iOSPrinciple_ReactNativeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSPrinciple_ReactNativeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.S..iOSPrinciple-ReactNativeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,15 +693,12 @@
 		};
 		3452271220A533D7003C23BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568D51951195085A6B2C8507 /* Pods-iOSPrinciple_ReactNativeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSPrinciple_ReactNativeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.S..iOSPrinciple-ReactNativeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,14 +708,11 @@
 		};
 		3452271420A533D7003C23BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1175509A2F5AA45E728904C9 /* Pods-iOSPrinciple_ReactNativeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSPrinciple_ReactNativeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.S..iOSPrinciple-ReactNativeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,14 +722,11 @@
 		};
 		3452271520A533D7003C23BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9D16BE3CDD217700985D24 /* Pods-iOSPrinciple_ReactNativeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSPrinciple_ReactNativeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.S..iOSPrinciple-ReactNativeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
