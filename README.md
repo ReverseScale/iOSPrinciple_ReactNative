@@ -418,3 +418,4 @@ React Native的通讯基础建立在传统的JS Bridge之上，不过对于Bridg
 * 3.Native->JS，原理上使用JSCore从Native执行JS代码，React-Native在此基础上给我们提供了通知发送的执行方式。
 * 4.JS->Native，原理上JS并不主动调用Native，而是把方法和参数(回调)缓存到队列中，在Native事件触发并访问JS后，通过blocks回调Native。
 
+> 以上原理解析文章来源：http://i.dotidea.cn/2016/05/react-native-communication-principle-for-ios/
