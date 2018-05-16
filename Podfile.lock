@@ -1,0 +1,38 @@
+PODS:
+  - React/Core (0.44.0):
+    - React/cxxreact
+    - Yoga (= 0.44.0.React)
+  - React/cxxreact (0.44.0):
+    - React/jschelpers
+  - React/jschelpers (0.44.0)
+  - React/RCTNetwork (0.44.0):
+    - React/Core
+  - React/RCTText (0.44.0):
+    - React/Core
+  - React/RCTWebSocket (0.44.0):
+    - React/Core
+  - SVProgressHUD (2.2.5)
+  - Yoga (0.44.0.React)
+
+DEPENDENCIES:
+  - React/Core (from `./react/node_modules/react-native`)
+  - React/RCTNetwork (from `./react/node_modules/react-native`)
+  - React/RCTText (from `./react/node_modules/react-native`)
+  - React/RCTWebSocket (from `./react/node_modules/react-native`)
+  - SVProgressHUD (~> 2.2.2)
+  - Yoga (from `./react/node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ./react/node_modules/react-native
+  Yoga:
+    :path: ./react/node_modules/react-native/ReactCommon/yoga
+
+SPEC CHECKSUMS:
+  React: e53535491f7b382b8cd681428dd853159bf25545
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Yoga: f2b1f5b59fadb774a3dd9932a7cf813c6e284d71
+
+PODFILE CHECKSUM: 4103d17fbf8c5a2a5659764afcfe7c917f3ed4e0
+
+COCOAPODS: 1.4.0
