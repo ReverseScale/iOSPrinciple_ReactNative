@@ -36,6 +36,7 @@ react-native run-android
 ```
 
 准备工作完成了
+
 ----
 ### React 原理探究
 首先我们聊聊 React，我们注意到这条数据源代码
@@ -62,6 +63,7 @@ JSX 允许我们写 HTML 标签或 React 标签，它们终将被转换成原生
 当然，React 并不是前端开发的全部。从之前的描述也能看出，它专注于 UI 部分，对应到 MVC 结构中就是 View 层。
 
 要想实现完整的 MVC 架构，还需要 Model 和 Controller 的结构。在前端开发时，我们可以采用 Flux 和 Redux（基于Flux） 架构，它们并非框架(Library)，而是和 MVC 一样都是一种架构设计(Architecture)。
+
 ---
 ### React Native 原理探究
 #### 谈谈 RN 的故事背景
@@ -86,6 +88,7 @@ int iVal = [jsVal toInt32];
 ```
 
 JavaScript 是一种单线程的语言，它不具备自运行的能力，因此总是被动调用。很多介绍 React Native 的文章都会提到 “JavaScript 线程” 的概念，实际上，它表示的是 Objective-C 创建了一个单独的线程，这个线程只用于执行 JavaScript 代码，而且 JavaScript 代码只会在这个线程中执行。
+
 ---
 下面将 JavaScript 👉 OC
 
