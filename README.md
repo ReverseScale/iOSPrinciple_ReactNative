@@ -714,8 +714,8 @@ _updateChildren: function(nextNestedChildrenElements, transaction, context) {
 ```
 
 
-## 以下是针对 Demo 项目的解释
-### 基本原理
+## 以下是针对 Demo 项目的通信原理解释
+### 通信基本原理
 
 首先，我们来看一下在iOS中Native如何调用JS。从iOS7开始，系统进一步开放了WebCore SDK，提供JavaScript引擎库，使得我们能够直接与引擎交互拥有更多的控制权。其中，有两个最基础的概念：
 
