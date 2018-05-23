@@ -493,9 +493,7 @@ NativeModules.CryptoExport.rsaEncryptValue(value, rsaKey,function (rsaValue) {
 ---
 ### React Native更新机制
 ![](http://og1yl0w9z.bkt.clouddn.com/18-5-22/64528759.jpg)
-之前我们说过，React是有个状态机这么一说的，就是不行的去检查当前的状态，是否需要刷新。
-
-之前我们说过，React是有个状态机这么一说的，就是不行的去检查当前的状态，是否需要刷新。
+之前我们说过，React是状态机，就是不停的去检查当前的状态，判断是否需要刷新。
 
 调用this.setState
 ```js
